@@ -1,0 +1,198 @@
+.bgprimary{ 
+    background-color:#2B2E66;
+}
+.textprimary{
+    color: #2B2E66;
+}
+.textwarning{
+    color: goldenrod;
+}
+.textlight{
+    color: white;
+}
+.btnprimary{
+    background-color: #2B2E66;
+    color: white;
+}
+.btnwarning{
+    background-color: goldenrod;
+    color: white;
+}
+#home {
+    background-image: url("images/bg-1.jpg");
+    background-position: center top;
+    width: 100%;
+    height: 680px;
+}
+
+#home2 {
+    background-image: url("images/bg-2.png");
+    background-position: center;
+    width: 100%;
+    height: 590px;
+    background-size: contain;
+}
+
+#hydy {
+    height: 630px;
+    background-position: center;
+    background-size: contain;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#hydy1 {
+    display: flex;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+#home4 {
+    background-image: url("images/img3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+}
+
+.amenity {
+    height: 200px;
+    border: 1px solid gold;
+}
+
+#numbox {
+    display: inline-block;
+    margin-inline: auto;
+    margin-left: 425px;
+    margin-top: 30px;
+
+}
+
+#numbox a {
+    border: 1px solid  #2B2E66;
+    text-decoration: none;
+    color:  #2B2E66;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#numbox a.active {
+    background-color:  #2B2E66;
+    text-decoration: none;
+    color: white;
+}
+
+.st {
+    height: 617px;
+    width: 100%;
+}
+
+.cardpt {
+    height: 237px;
+    width: 271px;
+    padding-top: 25px;
+
+
+}
+#kyu {
+    height: 250px;
+    width: 180px;
+    margin: 5px;
+    padding-top: 12px;
+
+
+}
+#kyu p{
+    font-size: 16px;
+}
+#kyu img{
+    height: 40px;
+}
+
+.cardactive {
+    height: 326px;
+    width: 308px;
+    padding-top: 70px;
+}
+
+#numboxa a {
+    border: 1px solid gold;
+    text-decoration: none;
+    color: gold;
+    padding: 10px;
+}
+
+#numboxa a.active {
+    background-color: gold;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: blue;
+}
+@media only screen and (max-width: 600px){
+    #home{
+        background-image: url("images/bg3.png");
+        background-position: top center;
+        background-size:cover;
+        height: 816px;
+        background-repeat: no-repeat;
+        
+    }
+    #home1{
+        margin-top: 250px;
+    }
+    #home2 {
+        background-image: url("images/bg-2.png");
+        width: 390px;
+        height: 890px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #home4 {
+        background-image: url("images/img3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 390px;
+        height: 936px;
+        background-size: cover;
+    }
+    #numbox {
+        display: inline-block;
+        margin-inline: auto;
+        margin-left: 50px;
+        margin-top: 30px;
+    
+    }
+    .amenity {
+        height: 200px;
+        border: 1px solid gold;
+    }
+    .cardpt {
+        height: 200px;
+        width: 100%;
+        padding: 10px;
+    
+    
+    }
+    #kyu {
+        height: 190px;
+        width: 180px;
+        margin: 5px;
+        padding-top: 12px;
+    
+    
+    }
+    #kyu p{
+        font-size: 12px;
+    }
+    #kyu img{
+        height: 40px;
+    }
+}
